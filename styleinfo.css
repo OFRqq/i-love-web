@@ -3,7 +3,7 @@ body {
     font-family: open sans;
     color: #e7e7e7;
     background-color: #535353;
-    background-image: radial-gradient(#fcfcfc 10%, transparent 11%), radial-gradient(#d6d6d6 10%, transparent 11%);
+    background-image: radial-gradient(#ffffff 10%, transparent 11%), radial-gradient(#d6d6d6 10%, transparent 11%);
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
     background-repeat: repeat;
