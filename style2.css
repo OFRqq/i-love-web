@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    font-family: open sans;
+    color: #e7e7e7;
+    background-color: #535353;
+    background-image: radial-gradient(#fcfcfc 10%, transparent 11%), radial-gradient(#d6d6d6 10%, transparent 11%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    display:grid;
+    place-content:center;
+}
+
+h1 {
+    position:center;
+    font-size:40px;
+    font-family: fantasy;
+    
+}
+
+p {
+    font-family:cursive;
+    font-size: 20px;
+    
+}
+
+div {
+    border: 30px #000000;
+    text-align: justify;
+    background-color:#616161 ;
+    height: 380px;
+    width: 920px;
+    border-radius: 15px;
+    padding:5px;
+    overflow-y:auto;
+    margin:20px 20px;
+}
+
