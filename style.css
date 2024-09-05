@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    font-family: open sans;
+    color: #e7e7e7;
+    background-color: #535353;
+    background-image: radial-gradient(#fcfcfc 10%, transparent 11%), radial-gradient(#d6d6d6 10%, transparent 11%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    display:grid;
+    place-content:center;
+}
+
+* {
+    box-sizing: border-box;
+}
+html {
+height:100vh;
+}
+
+p {
+color:rgb(0, 0, 0);
+font-size:20px;
+}
+h1 {
+font-family:monospace;
+color:rgb(61, 61, 61)
+}
+
+h1:hover {
+color:rgb(0, 0, 0);
+transition: 3s;
+}
+
+div {
+    width: 40vw;
+    aspect-ratio: 1;
+    background: url("../assets/cloud.png");
+    position: absolute;
+    animation: mymove 5s infinite linear;
+    left:0;
+    top:calc(20vh - 50px);
+    background-size:contain;
+    filter:invert();
+    
+  }
+  
+  @keyframes mymove {
+    0% {
+        translate:-100% 0;
+    }
+    100% {
+        translate:100vw 0;
+    }
+  }
