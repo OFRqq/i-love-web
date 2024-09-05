@@ -13,39 +13,107 @@ body {
 
 * {
     box-sizing: border-box;
+    overflow:hidden;
 }
 html {
 height:100vh;
 }
 
-p {
+.p {
 color:rgb(0, 0, 0);
 font-size:20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+place-content:center;
+
 }
+
 h1 {
 font-family:monospace;
-color:rgb(61, 61, 61)
 }
 
 h1:hover {
-color:rgb(0, 0, 0);
-transition: 3s;
+color:rgb(255, 255, 255);
+text-shadow: 2px 2px #636363;
+transition: 1.5s;
 }
 
-div {
-    width: 40vw;
+.button1 {
+font-size: 10px;
+display:inline-block;
+padding:1em -1em ;
+margin:0 0.3em 0.3em 0;
+border-radius: 3em;
+border-color:#ffffff00
+
+}
+.button1:hover{
+background-color:#000000;
+color:#e7e7e7;
+
+}
+
+
+.div4 {
+    width: 140px;
     aspect-ratio: 1;
     background: url("../assets/cloud.png");
     position: absolute;
-    animation: mymove 5s infinite linear;
+    animation: mymove2 8s infinite linear;
     left:0;
-    top:calc(20vh - 50px);
+    top:calc(1vh - -150px);
     background-size:contain;
-    filter:invert();
+    text-align:center;
+}
+.div3 {
+    width: 400px;
+    aspect-ratio: 1;
+    background: url("../assets/cloud.png");
+    position: absolute;
+    animation: mymove1 9s infinite linear;
+    left:0;
+    top:calc(30vh - -100px);
+    background-size:contain;
+}
+.div2 {
+    width: 300px;
+    aspect-ratio: 1;
+    background: url("../assets/cloud.png");
+    position: absolute;
+    animation: mymove1 7s infinite linear;
+    left:0;
+    top:calc(10vh - 50px);
+    background-size:contain;
+   
     
   }
-  
-  @keyframes mymove {
+
+.hide {
+    display:none;
+    position:fixed;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.div1 {
+    width: 230px;
+    aspect-ratio: 1;
+    background: url("../assets/cloud.png");
+    position: absolute;
+    animation: mymove2 7.5s infinite linear;
+    left:0;
+    top:calc(20vh - 150px);
+    background-size:contain;
+    text-align:center;
+    
+  }
+ 
+
+  .div1:hover + .hide {
+    display:block;
+    filter:invert();
+  }
+
+    @keyframes mymove1 {
     0% {
         translate:-100% 0;
     }
@@ -53,3 +121,14 @@ div {
         translate:100vw 0;
     }
   }
+   
+  @keyframes mymove2 {
+    0% {
+        translate:-220% 0;
+    }
+    100% {
+        translate:100vw 0;
+    }
+  }
+ 
+  
