@@ -77,7 +77,7 @@ transition:0.8s;
     position: absolute;
     animation: mymove1 9s infinite linear;
     left:0;
-    top:calc(30vh - -100px);
+    top:calc(3vh - -100px);
     background-size:contain;
     z-index: -1;
 }
@@ -94,12 +94,6 @@ transition:0.8s;
    
   }
 
-.hide {
-    position:fixed;
-    opacity:0.1;
-    font-family: cursive;
-    font-size: 50px;
-}
 
 .divcloud1 {
     width: 200px;
@@ -121,7 +115,7 @@ transition:0.8s;
   .divcloud1:hover {
     display:block;
     filter:invert();
-    color: #fcfcfc00;
+    color: #ffffff00;
   }
 
     @keyframes mymove1 {
