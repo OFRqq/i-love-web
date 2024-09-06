@@ -34,7 +34,7 @@ font-family:monospace;
 
 
 .button1 {
-    background-image:url("../assets/cloud.png");
+    background-image:url("./assets/cloud.png");
     background-size:120px 120px;
     background-repeat: no-repeat;
     background-position: center;
