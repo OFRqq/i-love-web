@@ -35,11 +35,11 @@ font-family:monospace;
 
 .button1 {
     background-image:url("assets/cloud.png");
-    background-size:120px 120px;
+    background-size:140px 140px;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ffffff;
-    font-size: 10px;
+    background-color: #aeefff00;
+    font-size: 15px;
     text-align: center;
     display:inline-block;
     padding:1em -1em ;
@@ -50,10 +50,11 @@ font-family:monospace;
     position:center;
 }
 .button1:hover{
-background-color:#00000000;
+background-color:#ffffff7a;
 color:#000000;
 font-style:italic;
 transition:0.8s;
+text-shadow:1px 2px #ffb7b7;
 
 }
 
@@ -70,6 +71,7 @@ transition:0.8s;
     text-align:center;
     z-index: -1;
 }
+
 .divcloud3 {
     width: 400px;
     aspect-ratio: 1;
@@ -81,6 +83,7 @@ transition:0.8s;
     background-size:contain;
     z-index: -1;
 }
+
 .divcloud2 {
     width: 300px;
     aspect-ratio: 1;
@@ -110,6 +113,7 @@ transition:0.8s;
     display:grid;
     font-family:sans-serif;
     font-size:20px
+    
   }
 
   .divcloud1:hover {

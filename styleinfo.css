@@ -13,9 +13,15 @@ body {
 
 h1 {
     position:center;
-    font-size:40px;
+    font-size:30px;
     font-family: fantasy;
     background-color: #00000025;
+}
+
+h1.goback {
+    background-color: #53535300;
+    font-family:monospace;
+    font-size: 5xp;
 }
 
 p {
@@ -24,11 +30,11 @@ p {
     overflow:auto;
 }
 
-div {
+div.text1 {
     border: 30px #000000;
     text-align: justify;
     background-color:#616161 ;
-    height: 380px;
+    height: 250px;
     width: 920px;
     border-radius: 15px;
     padding:5px;
@@ -36,3 +42,41 @@ div {
     margin:20px 20px;
 }
 
+div.text2 {
+    border: 30px #000000;
+    text-align: justify;
+    background-color:#616161 ;
+    height: 250px;
+    width: 920px;
+    border-radius: 15px;
+    padding:5px;
+    overflow-y:scroll;
+    margin:20px 20px;
+}
+
+button.goback {
+    background-color:#616161;
+    background-size:50px 50px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    text-align: center;
+    position:center;
+    display:inline-block;
+    padding:1em -1em ;
+    display:inline-block;
+    margin:20px 20px;
+    border-radius: 3em;
+    border:none;
+    position:center;
+    size:15px;
+    font-family:monospace;
+}
+
+button.goback:hover{
+    background-color:#ffffff7a;
+    color:#000000;
+    font-style:italic;
+    transition:0.8s;
+    text-shadow:1px 2px #ffb7b7;
+
+    }
