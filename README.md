@@ -17,3 +17,5 @@ Gewerkt met figma, de oefenopdrachten en het design.
 retrospect doorgenomen hoe het werkt en waar verbetering/verandering in moet komen
 
 ik heb geleerd hoe ik met figma moet werken, hoe ik retrospect beter moet opstellen en verder gewerkt met mijn eigen versie van de squadpage.
+ook de hirarchie geleerd, 
+grote,witregel,kleur,contrast,animatie,
