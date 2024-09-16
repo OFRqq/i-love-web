@@ -8,3 +8,12 @@ De instructie voor de I Love Web vind je in: [INSTRUCTIONS](https://github.com/f
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
+
+
+--------------daily checkout---------------
+
+16-09-2024 (vervolg van issues)
+Gewerkt met figma, de oefenopdrachten en het design.
+retrospect doorgenomen hoe het werkt en waar verbetering/verandering in moet komen
+
+ik heb geleerd hoe ik met figma moet werken, hoe ik retrospect beter moet opstellen en verder gewerkt met mijn eigen versie van de squadpage.
