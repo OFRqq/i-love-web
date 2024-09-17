@@ -19,3 +19,9 @@ retrospect doorgenomen hoe het werkt en waar verbetering/verandering in moet kom
 ik heb geleerd hoe ik met figma moet werken, hoe ik retrospect beter moet opstellen en verder gewerkt met mijn eigen versie van de squadpage.
 ook de hirarchie geleerd, 
 grote,witregel,kleur,contrast,animatie,
+
+17-09-2024
+gewerkt aan css transities en animaties
+https://codepen.io/OFRQQ/pen/oNrrzpe?editors=0100
+https://codepen.io/shooft/pen/WNqmBKd?editors=0110
+geluisterd naar de presentatie en nog doorgewerkt aan de songnummers voor de squadpage
