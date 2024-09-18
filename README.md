@@ -25,3 +25,6 @@ gewerkt aan css transities en animaties
 https://codepen.io/OFRQQ/pen/oNrrzpe?editors=0100
 https://codepen.io/shooft/pen/WNqmBKd?editors=0110
 geluisterd naar de presentatie en nog doorgewerkt aan de songnummers voor de squadpage
+
+18-09-2024
+alle ingestuurde video's verwerkt naar mp3 bestanden en verkort naar 30sec.
