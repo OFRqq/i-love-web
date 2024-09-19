@@ -7,21 +7,16 @@ body {
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
     background-repeat: repeat;
-    display:grid;
     place-content:center;
+    overflow: hidden;
 }
 
 h1 {
+    
     position:center;
     font-size:30px;
     font-family: fantasy;
     background-color: #00000025;
-}
-
-h1.goback {
-    background-color: #53535300;
-    font-family:monospace;
-    font-size: 5xp;
 }
 
 p {
@@ -29,7 +24,7 @@ p {
     font-size: 20px;
     overflow:auto;
 }
-
+/* text 1 aanpassingen */
 div.text1 {
     border: 30px #000000;
     text-align: justify;
@@ -37,11 +32,21 @@ div.text1 {
     height: 250px;
     width: 920px;
     border-radius: 15px;
-    padding:5px;
+    padding:10px;
     overflow-y:scroll;
-    margin:20px 20px;
+    margin: 0px 50vh 20px;
+}
+/* fix */
+button{
+margin: 0px 50vh 20px;
 }
 
+/* h1 blijft op z'n plek */
+h1.head{
+    position: fixed;
+    margin:-20px 5px;
+}
+/* text 2 aanpassingen */
 div.text2 {
     border: 30px #000000;
     text-align: justify;
@@ -51,32 +56,14 @@ div.text2 {
     border-radius: 15px;
     padding:5px;
     overflow-y:scroll;
-    margin:20px 20px;
+    margin: 0px 50vh 20px;
 }
 
-button.goback {
-    background-color:#616161;
-    background-size:50px 50px;
-    background-repeat: no-repeat;
-    font-size: 15px;
-    text-align: center;
-    position:center;
-    display:inline-block;
-    padding:1em -1em ;
-    display:inline-block;
-    margin:20px 20px;
-    border-radius: 3em;
-    border:none;
-    position:center;
-    size:15px;
-    font-family:monospace;
-}
-
-button.goback:hover{
+button:hover{
     background-color:#ffffff7a;
     color:#000000;
     font-style:italic;
     transition:0.8s;
     text-shadow:1px 2px #ffb7b7;
-
+    display:block;
     }
