@@ -1,20 +1,22 @@
 body {
     margin:0px 0px;
-    padding:0px 60px;
+    padding:0px 30px;
     border:5px #c9c9c9;
     border-style:solid;
     background-color: #ffffff;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
 }
+
 /*header*/
 h2 {
+    background-color: rgb(255, 255, 255);
     text-align: center;
     color:#367e94;
     margin:0;
     font-size: large;
-    position:sticky;
 }
+
 /*Navigation Bar*/
 .Navbar div {
     background-color:#367e94;
@@ -51,7 +53,6 @@ h2 {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
     grid-gap:5px;
-    
 }
 /*all items in container*/
 .item {
@@ -63,11 +64,14 @@ h2 {
 /*daily Done box*/
 .daily {
     grid-area: 1/1/-1/-3;
-    background-color:rgba(255, 255, 255, 0.685);
+    background-color:rgb(255, 255, 255, 0.685);
+    overflow-y:scroll;
 }
+
 /*no work text box*/
 ul {
-    overflow:auto;
+
+    padding:0px 20px;
     text-align:left;
     text-indent: 5px;
 }
@@ -80,4 +84,9 @@ ul {
 .item2 {
     grid-area:4/4/-1/-1;
     background-color:rgb(255, 255, 255, 0.685);
+}
+
+footer{
+    background-color: #367e94;
+    height:10%
 }
