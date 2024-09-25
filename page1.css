@@ -6,6 +6,9 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    background-color: #ffffff;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 /*ALL ul text*/
@@ -23,7 +26,7 @@ ul {
 
 /*All h2 text styles*/
 h2 {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     text-align: center;
     color:#367e94;
     margin:0;
