@@ -1,13 +1,11 @@
 body {
     margin:0px 0px;
     padding:0px 30px;
-    border:5px #c9c9c9;
-    border-style:solid;
+    background-image: url(assets/background2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: #ffffff;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    background: rgb(0,167,173);
-background: linear-gradient(90deg, rgba(0,167,173,1) 0%, rgba(54,126,148,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 /*header*/
