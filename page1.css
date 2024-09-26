@@ -9,6 +9,7 @@ body {
 
 * {
     overflow:hidden;
+    box-sizing: border-box;
 }
 
 /*ALL ul text*/
@@ -26,6 +27,8 @@ ul {
 
 /*All h2 text styles*/
 h2 {
+    top: 0px;
+    position: sticky;
     background-color: #ffffff;
     text-align: center;
     color:#367e94;
@@ -65,13 +68,14 @@ h2 {
 
 /*Article Grid*/
 .container {
+    padding:40px 0px;
     margin:5px 0px;
     width:100%;
     height: 75%;
     display:grid; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
-    grid-gap:20px;
+    grid-gap:40px;
 }
 
 /*all items in container styles*/
