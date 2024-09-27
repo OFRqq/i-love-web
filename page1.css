@@ -106,15 +106,15 @@ h2 {
 /*github page*/
 .extra {
     grid-area:4/4/-1/-1;
-    background-color: white;
-    text-decoration: none;
-    text-align: center;
+    background-color:rgb(255, 255, 255, 0.459);
 }
 
 /*footer styles*/
 footer{
     background-color: #ffffff;
-    height:15%;
+    height:fill;
     border-style:solid;
     border-color:#367e94;
+    text-align: center;
+    text-decoration:none;
 }
