@@ -65,3 +65,13 @@ h2 {
     color: black;
     transition:0.3s;
 }
+
+ #iframediv {
+    padding:10px;
+    gap:5px;
+}
+
+.iframe {
+    aspect-ratio: 16/9;
+    width:50%;
+}
