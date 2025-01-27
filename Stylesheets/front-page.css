@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     font-family: open sans;
-    color: #e7e7e7;
+    color: #ffffff;
     background-color: #367e94;
     background-image: radial-gradient(#fcfcfc 10%, transparent 11%), radial-gradient(#d6d6d6 10%, transparent 11%);
     background-size: 60px 60px;
@@ -33,7 +33,7 @@ font-family:monospace;
 
 
 .button1 {
-    background-image:url("assets/cloud.png");
+    background-image:url("../assets/cloud.png");
     background-size:140px 140px;
     background-repeat: no-repeat;
     background-position: center;
@@ -57,7 +57,7 @@ transition:0.3s;
 .divcloud4 {
     width: 140px;
     aspect-ratio: 1;
-    background: url("assets/cloud.png");
+    background: url("../assets/cloud.png");
     position: absolute;
     animation: mymove2 8s infinite linear;
     left:0;
@@ -70,7 +70,7 @@ transition:0.3s;
 .divcloud3 {
     width: 400px;
     aspect-ratio: 1;
-    background: url("assets/cloud.png");
+    background: url("../assets/cloud.png");
     position: absolute;
     animation: mymove1 9s infinite linear;
     left:0;
@@ -82,7 +82,7 @@ transition:0.3s;
 .divcloud2 {
     width: 300px;
     aspect-ratio: 1;
-    background: url("assets/cloud.png");
+    background: url("../assets/cloud.png");
     position: absolute;
     animation: mymove1 7s infinite linear;
     left:0;
@@ -95,7 +95,7 @@ transition:0.3s;
 .divcloud1 {
     width: 200px;
     aspect-ratio: 1;
-    background: url("assets/cloud.png");
+    background: url("../assets/cloud.png");
     position: absolute;
     animation: mymove2 7.5s infinite linear;
     left:0;
