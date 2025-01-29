@@ -3,7 +3,7 @@
 @media screen and (min-width: 900px) {
     body {
 
-        /* header styling */
+        /* === header === */
         header {
             background-color: black;
             margin: 15px 0 0 0;
@@ -12,7 +12,7 @@
             text-align: center;
             height: 7vw;
 
-            /* header title */
+            /* header title styling*/
             h1 {
                 text-overflow: ellipsis;
                 font-size: 7vw;
@@ -21,26 +21,28 @@
             }
         }
 
-        /* navigation bar */
+        /* === navigation bar === */
         nav {
-            display:flex;
-            display:row;
+            display: flex;
+            display: row;
             justify-content: space-between;
             margin: 10px 25px 0 25px;
             padding: 1.042vw;
             border: solid 1px;
-            
-            /* nav ul list */
+            align-items: center;
+
+            /* nav ul list 1 */
             ul {
                 display: flex;
-                display:row;
+                display: row;
                 gap: 7vw;
             }
 
+            /* li styling */
             li {
-                border: solid 2px;
-                padding: 0px 20px 0px 20px;
-                max-height: 5vw;
+                border: solid 3px;
+                padding: 0 20px 0 20px;
+                max-height: 3vw;
                 list-style: none;
 
             }
@@ -49,11 +51,15 @@
                 background-color: red;
             }
 
+            /* nav div list 2 */
             .github {
+                margin: 0 2vw 0 0;
                 display: flex;
                 align-items: center;
-                    display: flex;
-                    flex-direction: row;
+                display: flex;
+                flex-direction: row;
+
+                /* image styling */
                 .github-img {
                     height: 50px;
                     width: 50px;
@@ -64,11 +70,11 @@
                     background-size: cover;
 
                 }
-
+                /* link styling */
                 a:hover {
                     filter: invert(21%) sepia(90%) saturate(6411%) hue-rotate(356deg) brightness(100%) contrast(117%);
                 }
-
+                /* text styling */
                 p {
                     margin: 0 0 0 .5vw;
                 }

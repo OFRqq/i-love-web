@@ -26,6 +26,7 @@
   /* laptop size */
   @media screen and (min-width: 900px) {
     body {
+      padding: 0 0  50011px 0;
       /* normal text size */
       p {
         font-size: clamp(0.9375rem, 0.8864rem + 0.0909vw, 1rem);
