@@ -9,6 +9,7 @@
 body {
 
     header {
+        background-color: black;
         margin: 15px 0 0 0;
         white-space: nowrap;
         overflow: hidden;
@@ -18,7 +19,7 @@ body {
         h1 {
             text-overflow: ellipsis;
             font-size: 7vw;
-            color: rgb(0, 0, 0);
+            color: rgb(182, 182, 182);
             animation: mymove1 4s cubic-bezier(0, .48, 0, .91);
         }
     }
@@ -27,26 +28,30 @@ body {
     nav {
         margin: 10px 25px 0 25px;
         padding: 1.042vw;
-        border: solid 2px;
+        border: solid 1px;
 
         ul {
             display: flex;
             justify-content: space-between;
+            
+
             div {
                 align-items: center;
                 display: flex;
                 flex-direction: row;
-                gap: 7vw;
             }
+            .navigation {
+                gap: 7vw;
+                }
         }
 
         li {
             border: solid 2px;
             padding: 0px 20px 0px 20px;
             max-height: 5vw;
+            list-style: none;
 
             a {
-                text-decoration: none;
                 text-decoration: none;
                 color: black;
                 font-size: 2vw;
@@ -59,20 +64,30 @@ body {
         }
 
         .github {
-            right:0px;
-
+            display: flex;
+            justify-content: space-around;
+            
             .github-img {
-                height: 70px;
-                width: 70px;
-                background-color: #bbb;
+                height: 50px;
+                width: 50px;
                 border-radius: 50%;
                 background-image: url(../assets/github\ img.png);
                 background-repeat: no-repeat;
                 background-position: center;
+                background-size: 50px;
+                border: solid;
+                color:black;
+            }
+            .github-img:hover {
+                color:red;
+            }
+            p {
+                margin: 0 0 0 .5vw;
             }
         }
     }
 }
+
 
 @keyframes mymove1 {
     0% {
