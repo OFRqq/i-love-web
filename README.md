@@ -55,4 +55,15 @@ i-love-web presentatie van Dave Bitter over **The rise of AI-powered Voice Inter
 HTML aangepast, dankzij Sanne nav gefixed naar bottem , poster gemaakt 
 [commit](https://github.com/OFRqq/the-startup-responsive-interactive-website/commit/a5713fca757b15e680d063f8ac9ec528724a237a)
 
+27-01-2025 -- 02-02-2025
+bezig geweest met I-love-web
+issues aangemaakt
+plan doorgenomen
+design gemaakt figma
+breakdown schets
+bouwen html 
+bouwen html en css
+figma design omgegooid (animatie principe veranderd schuift in)
+
+
 ------------------------------------------
