@@ -26,11 +26,12 @@ body {
     /* navigation bar */
     nav {
         margin: 10px 25px 0 25px;
-        padding: 20px;
+        padding: 1.042vw;
         border: solid 2px;
 
         ul {
             display: flex;
+            justify-content: space-between;
             div {
                 align-items: center;
                 display: flex;
@@ -40,14 +41,12 @@ body {
         }
 
         li {
-            white-space: nowrap;
             border: solid 2px;
             padding: 0px 20px 0px 20px;
-            max-height:5vw;
+            max-height: 5vw;
 
             a {
                 text-decoration: none;
-                text-overflow: ellipsis;
                 text-decoration: none;
                 color: black;
                 font-size: 2vw;
@@ -60,7 +59,7 @@ body {
         }
 
         .github {
-            
+            right:0px;
 
             .github-img {
                 height: 70px;
@@ -69,7 +68,7 @@ body {
                 border-radius: 50%;
                 background-image: url(../assets/github\ img.png);
                 background-repeat: no-repeat;
-                background-size: center;
+                background-position: center;
             }
         }
     }
