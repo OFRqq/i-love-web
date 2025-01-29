@@ -1,88 +1,77 @@
-/* upcoming */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
+/* CSS main-page */
 
-body {
+@media screen and (min-width: 900px) {
+    body {
 
-    header {
-        background-color: black;
-        margin: 15px 0 0 0;
-        white-space: nowrap;
-        overflow: hidden;
-        text-align: center;
-        height: 7vw;
+        /* header styling */
+        header {
+            background-color: black;
+            margin: 15px 0 0 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: center;
+            height: 7vw;
 
-        h1 {
-            text-overflow: ellipsis;
-            font-size: 7vw;
-            color: rgb(182, 182, 182);
-            animation: mymove1 4s cubic-bezier(0, .48, 0, .91);
+            /* header title */
+            h1 {
+                text-overflow: ellipsis;
+                font-size: 7vw;
+                color: rgb(182, 182, 182);
+                animation: mymove1 4s cubic-bezier(0, .48, 0, .91);
+            }
         }
-    }
 
-    /* navigation bar */
-    nav {
-        margin: 10px 25px 0 25px;
-        padding: 1.042vw;
-        border: solid 1px;
-
-        ul {
-            display: flex;
+        /* navigation bar */
+        nav {
+            display:flex;
+            display:row;
             justify-content: space-between;
+            margin: 10px 25px 0 25px;
+            padding: 1.042vw;
+            border: solid 1px;
             
-
-            div {
-                align-items: center;
+            /* nav ul list */
+            ul {
                 display: flex;
-                flex-direction: row;
-            }
-            .navigation {
+                display:row;
                 gap: 7vw;
+            }
+
+            li {
+                border: solid 2px;
+                padding: 0px 20px 0px 20px;
+                max-height: 5vw;
+                list-style: none;
+
+            }
+
+            li:hover {
+                background-color: red;
+            }
+
+            .github {
+                display: flex;
+                align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                .github-img {
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    background-image: url(../assets/github\ img.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+
                 }
-        }
 
-        li {
-            border: solid 2px;
-            padding: 0px 20px 0px 20px;
-            max-height: 5vw;
-            list-style: none;
+                a:hover {
+                    filter: invert(21%) sepia(90%) saturate(6411%) hue-rotate(356deg) brightness(100%) contrast(117%);
+                }
 
-            a {
-                text-decoration: none;
-                color: black;
-                font-size: 2vw;
-            }
-
-        }
-
-        li:hover {
-            background-color: red;
-        }
-
-        .github {
-            display: flex;
-            justify-content: space-around;
-            
-            .github-img {
-                height: 50px;
-                width: 50px;
-                border-radius: 50%;
-                background-image: url(../assets/github\ img.png);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: 50px;
-                border: solid;
-                color:black;
-            }
-            .github-img:hover {
-                color:red;
-            }
-            p {
-                margin: 0 0 0 .5vw;
+                p {
+                    margin: 0 0 0 .5vw;
+                }
             }
         }
     }

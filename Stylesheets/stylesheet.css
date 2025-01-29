@@ -1,11 +1,41 @@
 /* upcoming kebab-case*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
-
-/* moving text main/info-page */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .bebas-neue-header {
     font-family: "Bebas Neue", serif;
     font-weight: 500;
     font-style: normal;
   }
+  .montserrat {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
   
+  /* laptop size */
+  @media screen and (min-width: 900px) {
+    body {
+      /* normal text size */
+      p {
+        font-size: clamp(0.9375rem, 0.8864rem + 0.0909vw, 1rem);
+      }
+
+      /* link */
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 2vw;
+    }
+    }
+  }
