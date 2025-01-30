@@ -44,11 +44,14 @@
                 padding: 0 20px 0 20px;
                 max-height: 3vw;
                 list-style: none;
+                animation:.5s;
 
             }
 
             li:hover {
                 background-color: red;
+                    transform:scale(.95);
+                
             }
 
             /* nav div list 2 */
