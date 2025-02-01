@@ -45,12 +45,11 @@
                 max-height: 3vw;
                 list-style: none;
                 animation:.5s;
-
             }
 
             li:hover {
                 background-color: red;
-                    transform:scale(.95);
+                    transform:scale(.97);
                 
             }
 

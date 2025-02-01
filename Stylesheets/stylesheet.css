@@ -26,6 +26,7 @@
   /* laptop size */
   @media screen and (min-width: 900px) {
     body {
+      /* TEMP */
       padding: 0 0  50011px 0;
       /* normal text size */
       p {
