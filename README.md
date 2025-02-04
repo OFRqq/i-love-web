@@ -65,5 +65,8 @@ bouwen html
 bouwen html en css
 figma design omgegooid (animatie principe veranderd schuift in)
 
+03-02-2025
+gewerkt met NodeJS en liquid, API gebruikt en geïmplementeerd. server live gebracht met render, loop vast met het begrijpen van wat er gebeurd op de achtergrond, onderzoeken
+
 
 ------------------------------------------
