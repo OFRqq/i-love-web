@@ -1,5 +1,5 @@
 function haalBerichtenOp() {
-    fetch("https://i-love-api.onrender.com/API/berichten")
+    fetch("https://i-love-api.onrender.com/")
         .then(response => response.json())
         .then(berichten => {
             const container = document.getElementById("berichtenContainer");
