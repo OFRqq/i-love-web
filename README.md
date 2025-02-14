@@ -69,4 +69,29 @@ figma design omgegooid (animatie principe veranderd schuift in)
 gewerkt met NodeJS en liquid, API gebruikt en geïmplementeerd. server live gebracht met render, loop vast met het begrijpen van wat er gebeurd op de achtergrond, onderzoeken
 
 
+14-02-2024 we-love-web presentatie
+oprichter polypane 
+verdiende vroeger veel met banners, 15 cent per click, nu der tijd paar euros voor 1000 click's
+begon eerst klein met microsoft frontpage 2000 (oud)
+maakte veel tools laserschietende ogen, css framework 
+maakte een gracico linary charting library
+ontworp ook f.lux, die het scherm dimt op basis van dagtijd
+Fromscratch opgericht die automatisch berichten opslaat, maakte steeds complexere dingen
+begon met polypane 0.0, van fotoshop naar ontwerpen in 2015, gebruik van electron, waarbij je meerdere schermgrotes ziet.
+polypane 1.0, bedrijfoprichten, privacyclaims, licenties, overeenkomstensluiten, 
+14 mei lancering polypane 1.0, geslaagde lancering
+accesibility was ook erg belangrijk en daarom beheert polypane dat zodat iedereen erbij kan, en ontstaat er altijd weer wat nieuws.
+electron pakt chromium en nodes en die combineert het en voegt extra api's toe zodat je schermen kan managen en registeren. hierdoor zie je welke renderering agency je gebruikt, en je niet zorgen hoeft te maken over rendering... ook werkt deze flexible op linux, 42bit, chrome etc...
+React, reageert teveel met interne commincatie, backhand, interace ... matched niet met weizigingen en ui's (+ bakken met js) niet optimaal. 
+react houd bj hoeveel tabs je hebt en hoeveel open staan hoeveel schermen per tab, sidebar openstaat, berichten ontvangen via concole (alles via een boomstructuur) zorgt dat ui word aangepast.
+inter process communication zorgt ervoor dat je via backhand naar frontend electron kan communiceren, anders dan berichten die je door stuurt (screenshots ergens opslaan ofz.) 
+in ui gebruik je message bus protocol waarbij je een koker hebt, verschillende onderdelen berichten kunnen sturen naar koker en dat weer door kunnen sturen
+message poort is een combi van IPC api en message bus (hier 2 schermen uiteindes van message ports, nu kan je communiceren)
+chrome devtools protocol is om informatie te halen uit chrome 
+superposition.design (side project) hiermee kan je een website openen en heel de website doorlopen en de design tokens naar boven haalt
+fix contrast, contrast checker (chrome extension)
+polypane cloud
+quote, 'begin met side projects voor oefenen doen, wat je leuk vind en als je dat wilt bekendheid te krijgen, later in je carriere is het belangrijk om niet vasttehaken en is het verlijdelijk om het anders te doen'
+
+
 ------------------------------------------
