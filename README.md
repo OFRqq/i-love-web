@@ -131,8 +131,40 @@ code opnieuw proberen veranderen tot een oplossing gevonden word
 25.Ik kan formulierdata die is ge-POST door middelvan een POST of PATCHHTTP request opslaan in de REST API🫣0
 42 / 75
 
-07-03-2024 beyond tweening | Cassie Evans | GSAP, animation librabry to learn anything, animate anything with it, gsap.com, animate anything (CSS properties Attrivutes, array values and more..), free plugins, veel soorten randomizers {0, 100, 5} (randomize van 0 tot 100 met afronding tot 5) in strings. utils.wrap (wraps around all utils) utils.pipe (pipe true different values managing values with clamp), cool effect like roughease (for like a button) for styling (slow, exposcale, customease en rough effect to change animations like glitchy animations), matchmedia() (gsap.machtmedia() is gsap van @media querry's infilidates ''does the boring stuff'' clean up code, reducemotion ( setting to listen to and adjust animations which are really triggering) , control methods (methods for playing an aimation , play(), pause() resume() reverse() restart(),Helperfunction, adding relevant helper functions for the community, SCROLL (checken voor later) scrolltween for sroll animations (containeranimation), 
+07-03-2025 beyond tweening | Cassie Evans | GSAP, animation librabry to learn anything, animate anything with it, gsap.com, animate anything (CSS properties Attrivutes, array values and more..), free plugins, veel soorten randomizers {0, 100, 5} (randomize van 0 tot 100 met afronding tot 5) in strings. utils.wrap (wraps around all utils) utils.pipe (pipe true different values managing values with clamp), cool effect like roughease (for like a button) for styling (slow, exposcale, customease en rough effect to change animations like glitchy animations), matchmedia() (gsap.machtmedia() is gsap van @media querry's infilidates ''does the boring stuff'' clean up code, reducemotion ( setting to listen to and adjust animations which are really triggering) , control methods (methods for playing an aimation , play(), pause() resume() reverse() restart(),Helperfunction, adding relevant helper functions for the community, SCROLL (checken voor later) scrolltween for sroll animations (containeranimation), 
 
+12-03-2025 [<>](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/data-filtering-en-template-filters.md) 
+👉 Experiment 1: Ik wil alle studenten gesorteerd op name
+
+https://fdnd.directus.app/items/person?sort=name&fields=*
+
+hier worden persons gesorteerd (?sort=name&fields=*) op name en worden alle fields gevraagd.
+
+👉 Experiment 2: Ik wil alle names van studenten die een name hebben die begint met de letter D
+
+https://fdnd.directus.app/items/person?filter[name][_starts_with]=D
+
+hier worden persons gefilterd (?filter[name][_starts_with]=D op de letter D vanaf name via _starts_ with.
+
+👉 Experiment 3: Ik wil alle names van studenten die een name hebben die begint met de letter D of K
+
+https://fdnd.directus.app/items/person/?sort=name&filter[_or][0][name][_starts_with]=D&filter[_or][1][name][_starts_with]
+
+hier filter ik persons (?sort=name&filter[_or][0][name][_starts_with]=D) op een sort en filter met _or en de _starts_with erray & filter _or
+
+👉 Experiment 4: Ik wil alle names en birthdates van studenten die een birthdate hebben ingevuld
+
+https://fdnd.directus.app/items/person/?sort=name&fields=name,birthdate&filter[birthdate][_nnull]
+
+hierbij selecteer ik alle persons op naam en birthdate en zorgt _nnull ervoor dat hij alle bestaande birthdates laat zien.
+
+👉 Experiment 5: Ik wil alle names en birthdates van studenten met een birthdate in 2002
+
+https://fdnd.directus.app/items/person/?sort=name&fields=name,birthdate&filter[birthdate][_between]=2002-01-01,2002-12-31
+
+hierbij sorteer ik persons op name en birthdate, hierbij gebruik ik de filter op birtdate met _between = (tussen) 2002-01-01,2002-12-31
+
+👉 Experiment 6: Haal een lijst van alle unieke fav_tag op, en laat zien hoeveel mensen die tag hebben
 
 ## Licentie
 
