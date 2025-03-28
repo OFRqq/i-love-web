@@ -166,6 +166,19 @@ hierbij sorteer ik persons op name en birthdate, hierbij gebruik ik de filter op
 
 👉 Experiment 6: Haal een lijst van alle unieke fav_tag op, en laat zien hoeveel mensen die tag hebben
 
+We love web 28-03-2025 toegankelijkheid
+
+bijvoorbeeld handgebaren bij talkshows 
+
+hema 'bekijk alles' linkjes maar zeggen vrij weinig en niet toegankelijk, men zegt dat het een edge case is blinden of doven mensen terwijl het belangrijk is, erg veel mensen met een beperking (visuele beperking, motorische beperking, auditief, cognitief, op je telefoon terwijl je nog iets doet bijv met ballon in de lucht houden, moeheid, ouderdom)
+
+gebruik correcte html, kopper structuur, goede focus styles (tabben), contrast (meeste problemen ontstaat met lichtblauw groen en oranje = appie,coolblue).
+
+core functie van schiphol extra help stond volledig onderaan in de website wat niet handig is voor mensen met een beperking.
+
+pagespeed insights pagina, waarbij accessibility bekeken kan worden.
+
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
