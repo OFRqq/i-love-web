@@ -129,7 +129,7 @@ code opnieuw proberen veranderen tot een oplossing gevonden word
 23.Ik begrijphet verschil tussenclient-side JavaScript enserver-side JavaScript en wanneer ik welkehet handigst inkan zetten😅1
 24.Ik kan formulierdata die is ge-POSTopslaan ineen variabele op de server en gebruiken bijhet renderenvan een pagina🫣0
 25.Ik kan formulierdata die is ge-POST door middelvan een POST of PATCHHTTP request opslaan in de REST API🫣0
-42 / 75
+
 
 07-03-2025 beyond tweening | Cassie Evans | GSAP, animation librabry to learn anything, animate anything with it, gsap.com, animate anything (CSS properties Attrivutes, array values and more..), free plugins, veel soorten randomizers {0, 100, 5} (randomize van 0 tot 100 met afronding tot 5) in strings. utils.wrap (wraps around all utils) utils.pipe (pipe true different values managing values with clamp), cool effect like roughease (for like a button) for styling (slow, exposcale, customease en rough effect to change animations like glitchy animations), matchmedia() (gsap.machtmedia() is gsap van @media querry's infilidates ''does the boring stuff'' clean up code, reducemotion ( setting to listen to and adjust animations which are really triggering) , control methods (methods for playing an aimation , play(), pause() resume() reverse() restart(),Helperfunction, adding relevant helper functions for the community, SCROLL (checken voor later) scrolltween for sroll animations (containeranimation), 
 
@@ -220,7 +220,6 @@ code opnieuw proberen veranderen tot een oplossing gevonden word
 24.Ik kan formulierdata die is ge-POSTopslaan ineen variabele op de server en gebruiken bijhet renderenvan een pagina😅1
 ja zie [hier](https://github.com/OFRqq/the-web-is-for-everyone-interactive-functionality/blob/c2fb33d224bdfa8fa9f7e7d3676d7a4711518dc0/server.js#L80-L93)
 25.Ik kan formulierdata die is ge-POST door middelvan een POST of PATCHHTTP request opslaan in de REST API🫣0
-43 / 75
 
 
 ## Licentie
