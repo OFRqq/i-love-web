@@ -204,10 +204,13 @@ liquid is de view voor html waarop mensen via express het kunnen bekijken
 12.Ik weet hoe ik data naar Liquid verstuur om dit te gebruiken bij het renderen van een pagina🍗3
 data ophalen via {{}} en inladen op de liquid
 13.Ikweethoe ikLiquid filters toe kan passen en waar ik kan vinden hoe die werken😅1
+...
 14.Ik heb een nieuweroute gemaakt en nieuwedata meegegeven aan eenLiquid view🍗3
+...
 15.Ik weet waar eenforeach loop voor gebruikt wordt en pashet toe in eenLiquid view omHTML te renderen🤓2
 laden van 'per each' gegeven
 16.Ik kan in Liquid een controle maken waarmee de avatar niet getoond wordt als deze niet in whois.fdnd.nl is ingevuld🍗3
+dit kan via een if else statement in liquid template
 17.Ik heb een strategie voor debuggen in Liquid🤓2
 code opnieuw proberen veranderen tot een oplossing gevonden word
 18.Ik kandata fetchen uit eenREST API🍗3
@@ -215,7 +218,6 @@ code opnieuw proberen veranderen tot een oplossing gevonden word
 20.Ik kandata uit eenREST API filteren ofsorteren😅1
 21.Ik snap wat het async keyword doet inJavaScriptcode🫣0
 22.Ik weetwat het doel is van een try/catch block en kan het gebruiken bijhet parsen van JSON🫣0
-
 23.Ik begrijphet verschil tussenclient-side JavaScript enserver-side JavaScript en wanneer ik welkehet handigst inkan zetten😅1
 24.Ik kan formulierdata die is ge-POSTopslaan ineen variabele op de server en gebruiken bijhet renderenvan een pagina😅1
 ja zie [hier](https://github.com/OFRqq/the-web-is-for-everyone-interactive-functionality/blob/c2fb33d224bdfa8fa9f7e7d3676d7a4711518dc0/server.js#L80-L93)
