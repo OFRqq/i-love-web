@@ -178,6 +178,50 @@ core functie van schiphol extra help stond volledig onderaan in de website wat n
 
 pagespeed insights pagina, waarbij accessibility bekeken kan worden.
 
+04-04-2025
+
+1.Ik kan uitleggen wat NodeJS is en waarvoor het gebruikt wordt 🤓2
+data opslaan verwerken
+2.Ik weetwat het doelvan package.json isen heb hier aanpassingen ingemaakt 🤓2
+opgeslagen spullen
+3.Ik hebmet npm packages geïnstalleerd en gebruikt in het bestandserver.js🍗3
+express, liquid
+4.Ik kan met commando’s in de terminal een NodeJSproject stoppen en starten🍗3
+npm start, control + c
+5.Ik weet waarom ik mijn NodeJSproject regelmatig moet herstarten en kan dit uitleggen🤓2
+updaten van js 
+6.Ik heb een strategie voor debuggen inNodeJS 🍗3
+inspect, paginabron, aanpassen tot dat het werkt
+7.Ik kan uitleggenwat Express.js doet en waaromhet nodig is om met NodeJS eenwebsite te bouwen🤓2
+het brengen van code naar de view port?
+8.Ik weetwat routes zijn en kan zelf een nieuweroute aanmaken 🤓2
+fetchen van linkjes (api)
+9.Ik weetwat request enresponse argumenten zijn ineen functie voorhet laden van data 🤓2
+ophalen en verwerken
+10.Ik heb gebruik gemaaktvan eenrequest parameter om specifiekedata teladen 🤓2
+11.Ik kan uitleggenwat Liquid doet en waaromhet nodig is om met Express.js eenwebsite te maken 🤓2
+liquid is de view voor html waarop mensen via express het kunnen bekijken
+12.Ik weet hoe ik data naar Liquid verstuur om dit te gebruiken bij het renderen van een pagina🍗3
+data ophalen via {{}} en inladen op de liquid
+13.Ikweethoe ikLiquid filters toe kan passen en waar ik kan vinden hoe die werken😅1
+14.Ik heb een nieuweroute gemaakt en nieuwedata meegegeven aan eenLiquid view🍗3
+15.Ik weet waar eenforeach loop voor gebruikt wordt en pashet toe in eenLiquid view omHTML te renderen🤓2
+laden van 'per each' gegeven
+16.Ik kan in Liquid een controle maken waarmee de avatar niet getoond wordt als deze niet in whois.fdnd.nl is ingevuld🍗3
+17.Ik heb een strategie voor debuggen in Liquid🤓2
+code opnieuw proberen veranderen tot een oplossing gevonden word
+18.Ik kandata fetchen uit eenREST API🍗3
+19.Ik snap het verschil tussen HTTP requestsvan demethodesGETenPOST🫣0
+20.Ik kandata uit eenREST API filteren ofsorteren😅1
+21.Ik snap wat het async keyword doet inJavaScriptcode🫣0
+22.Ik weetwat het doel is van een try/catch block en kan het gebruiken bijhet parsen van JSON🫣0
+
+23.Ik begrijphet verschil tussenclient-side JavaScript enserver-side JavaScript en wanneer ik welkehet handigst inkan zetten😅1
+24.Ik kan formulierdata die is ge-POSTopslaan ineen variabele op de server en gebruiken bijhet renderenvan een pagina😅1
+ja zie [hier](https://github.com/OFRqq/the-web-is-for-everyone-interactive-functionality/blob/c2fb33d224bdfa8fa9f7e7d3676d7a4711518dc0/server.js#L80-L93)
+25.Ik kan formulierdata die is ge-POST door middelvan een POST of PATCHHTTP request opslaan in de REST API🫣0
+43 / 75
+
 
 ## Licentie
 
